@@ -1,0 +1,85 @@
+TODO: List here all the changes you made to given template to adapt it to your needs
+
+#273036
+
+Change #1
+
+I changed the Span in the intro section to better suit it to myself. I gave a brief intro of myself and listed a couple things about me and where I am at in life. I figured that this could serve as an intriguing factor to the user and they would want to learn more about me.
+--------------------------------------------------------------------------------
+
+Change #2
+
+I opted to remove the phone number button from the nav bar. In my opinion it looked very out of place, and way too big for the space that it filled in. I moved the button to the get started section and would also add it to the contact page if the employer really wanted to get a hold of me. This also is a good way to have them navigate more of the site.
+--------------------------------------------------------------------------------
+
+Change #3 
+
+I decided to remove the section that had to deal with the different companies. As this is going to act like "My portfolio" there really is no need for this portion to be there since I have never worked with any of these companies before.
+--------------------------------------------------------------------------------
+
+Change #4
+
+I also changed the services section of the website and chose to change it to the "My skills" section. The asymmetrical layout presented itself in a way that as the user scrolls they could continue to gather information about what I have in my skill set. 
+--------------------------------------------------------------------------------
+ 
+Change #5
+
+Once again as I have no work experience under my belt and have never created a website for an actual client before I opted to change the testimonial portion of the site to an about me section. This way the person who is looking at my profile can see if my interests and personality is going to be a good fit for the company culture.
+--------------------------------------------------------------------------------
+
+Change #6
+
+I have changed the Bootstrap Icons in the My skills section to better represent what I am talking about. Instead of having a cloud I made it an adobe PDF file and instead of the arrow on the first component I opted to choose a laptop icon that is better suited to what I am talking about in that section.
+--------------------------------------------------------------------------------
+
+Change #7
+
+I chose to take away the learn more buttons and the play button on the main page. I thought that the learn more buttons were useless since as the user was scrolling they would get to see my work displayed in the portfolio section of the site. For the play button in the main hero image area, I did not have a video to play so it served no purpose being there. The animation was cool, but it would be misleading to the user for the purpose that this website is going to serve.
+--------------------------------------------------------------------------------
+
+Change #8
+
+I chose to keep the "get in touch" button on the main hero section, but instead of taking the user to a different page, I had it scroll down to where the form and contact information was located so that they could automatically get in touch with me if they had any further questions. Because of this smooth transition, I had to add an anchor tag that wrapped the button, and take away the text decoration to make it look the same as it was when it was just a button.
+--------------------------------------------------------------------------------
+
+Change #9
+
+I added custom images and graphics to the whole website, and chose to remove 3 of the 9 tiles on the portfolio section since I do not have that many projects under my belt. These link to netlify applications that I have made in the past including personal websites and Vue.js application that I made for WEB 2630.
+--------------------------------------------------------------------------------
+
+Change #10
+
+I removed some of the content that was in the form section and chose to switch it to having my contact information on the left hand side, and then I opted to change the email address portion in the form to the company that they were reaching out from. I figured that if they wanted to send me an email then I would already have it and would not need them to fill it out an extra time.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Along with the changes above I have made sure to replace all filler text with my own as well as images and Icons. Some of the sections in the portfolio did not suit the purpose of this website so I chose to delete the content inside of those sections and replace them with new sections. The 2 new sections that I added will be listed below
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Section #1
+
+The first new section that I have added is the "My Skills" Section. I chose to do this so that I could display my skills as the first thing that someone sees as they come to this page.
+--------------------------------------------------------------------------------
+
+Section #2
+
+The second new section that I have added is a section that is titled "About Me". This section was in place of the company and testimonial section that I feel better represents who I am and the purpose of this site. 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Thoughts and Conclusion
+
+I had a really fun time re-designing this website and give it a new purpose. I ended up adding more HTML and CSS than I thought was necessary but I really love the outcome of this portfolio site. I feel as though anyone who came to this site would automatically know who I am and the skills that I portray as a designer and a developer.
+
+

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cooper Jones Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="TODO: A starter project for ...">
+  <title>Bootstrap 5 Landing Page Template</title>
+
+  <link rel="stylesheet" href="./stylesheets/main.scss">
+</head>
+
+<body>
+
+  <!-- THE NAVBAR SECTION -->
+  <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="logo image" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- THE INTRO SECTION -->
+  <section id="home" class="intro-section">
+    <div class="container">
+      <div class="row align-items-center text-white">
+        <div class="col-md-6 intros text-start">
+          <h1 class="display-2">
+            <span class="display-2--intro">Welcome!</span>
+            <span class="display-2--description lh-base">
+              My name is Cooper Jones, I am 22 years old and reside in Ogden Utah. I currently am planning to graduate
+              in December of 2023 with a degree in Web and UX design.
+            </span>
+          </h1>
+          <a href="#contact"><button type="button" class="rounded-pill btn-rounded">Get a hold of me
+              <span><i class="bi bi-arrow-right"></i></span>
+            </button></a>
+        </div>
+        <div class="col-md-6 intros text-end">
+          <div class="video-box">
+            <img src="images/arts/Coding _Monochromatic.png" alt="video illutration" class="img-fluid">
+            <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,224L48,208C96,192,192,160,288,138.7C384,117,480,107,576,128C672,149,768,203,864,218.7C960,235,1056,213,1152,192C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+
+  <!-- THE SERVICES SECTION -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">My Skills</h1>
+        <div class="heading-line mb-1"></div>
+      </div>
+      <div class="row pt-2 pb-2 mt-0 mb-3">
+        <div class="col-md-6 border-right">
+          <div class="bg-white p-3">
+            <h2 class="fw-bold text-capitalize text-center">
+              This section is dedicated to highlight my skills as a developer and creator.
+            </h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="bg-white p-4 text-start">
+            <p class="fw-light">
+              I have had a wide variety of experience in the front end side of programming, along with some backend
+              work. Along with that I have also had experience with freelancing and professional work in the Adobe
+              suite.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block bi bi-laptop"></div>
+            <h3 class="display-3--title mt-1">Front End</h3>
+            <p class="lh-lg">
+              Over the course of my schooling I have created countless websites and have programmed in many languages.
+              Some of the languages that I have used and grown familiar with are <strong>HTML, CSS, and
+                Javascript</strong>. Along with these languages I have learned frameworks and preprocessor's such as,
+              <strong>bootstrap, Vue.js, and SCSS</strong>. Frontend is what I particularly love doing and have loved
+              learning about all these different technologies.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+          <div class="services__pic">
+            <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+          <div class="services__pic">
+            <img src="images/services/service-2.png" alt="web development illustration" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block bi bi-code-slash"></div>
+            <h3 class="display-3--title mt-1">Back End</h3>
+            <p class="lh-lg">
+              Obviously I have learned a little bit of everything through the course of my schooling, but front end is
+              where I feel most comfortable. Although I am primarily a front end dev, I have had my fair share of back
+              end languages that I have had to work with. Some of the backend languages that I have worked with include
+              <strong>C++, Java, Python, Ruby, and SQL.</strong> I have also been exposed to the popular python
+              framework<strong> Django</strong>, and the popular Ruby framework,<strong>Ruby on Rails.</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block bi bi-file-pdf-fill"></div>
+            <h3 class="display-3--title mt-1">Design with Adobe</h3>
+            <p class="lh-lg">
+              At a previous job I was a product photographer and used <strong>Adobe Photoshop</strong> every other day
+              to clean up and edit images for professional use for around 400 companies. I also have done work in
+              <strong>Adobe Premiere Pro</strong> as a freelance wedding videographer, <strong>Adobe
+                Illustrator</strong> for personal logos and graphics, as well as Adobe XD to mock and prototype website
+              designs in order to beta test them as part of the iterative process that we do in our jobs as designers
+              and programmers.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+          <div class="services__pic">
+            <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- THE TESTIMONIALS SECTION -->
+  <section id="testimonials" class="testimonials">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="aboutMe">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,128L34.3,117.3C68.6,107,137,85,206,101.3C274.3,117,343,171,411,192C480,213,549,203,617,176C685.7,149,754,107,823,112C891.4,117,960,171,1029,176C1097.1,181,1166,139,1234,117.3C1302.9,96,1371,96,1406,96L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row text-center text-white">
+        <h1 class="display-3 fw-bold">About Me</h1>
+        <hr style="width: 100%; height: 3px; " class="mx-auto">
+      </div>
+    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <img src="images/aobout-me.jpg" alt="image of Cooper and wife" class="about">
+          </div>
+        <div class="col-md-6 col-sm-12">
+            <div class="about text-white about2 mx-auto">
+              There are many things that I enjoy to do in my free time outside of designing and developing User Interfaces
+              and User Experiences. My whole life has been spend residing in Ogden Utah. Growing up my whole life with a
+              mountain in my backyard has really funded my gratefulness towards the outdoors and nature. Apart from being outside I also love my time spent behind a computer, recently I have gotten into the hobby of custom mechanical keyboards. Apart from being a nerd I love to spend time with my wife who is currently in Nurse Practitioner school. We love to cook, watch movies together, and play all sorts of games that lead to serious competition. I am so excited to finish my degree of Web and UX design in December of 2023 and cant wait for the opportunities that present themselves to me!
+            </div>
+          </div>
+        </div>
+      </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,128L34.3,117.3C68.6,107,137,85,206,101.3C274.3,117,343,171,411,192C480,213,549,203,617,176C685.7,149,754,107,823,112C891.4,117,960,171,1029,176C1097.1,181,1166,139,1234,117.3C1302.9,96,1371,96,1406,96L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- THE PORTFOLIO -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row text-center mt-5">
+        <h1 class="display-3 fw-bold text-capitalize">Some of my work</h1>
+        <div class="heading-line"></div>
+        <p class="lead">
+          Here is a collection of some of the work that I have done recently over the last couple of years
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <a href="https://cooperjonesproductphotography.netlify.app/" target="_blank">
+            <div class="portfolio-box shadow">
+              <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture"
+                class="img-fluid">
+              <div class="portfolio-info">
+                <div class="caption">
+                  <h4>Cooper Jones Product Photography</h4>
+                  <p>built with HTML and CSS</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <a href="https://teal-buttercream-830fb2.netlify.app/" target="_blank">
+              <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture"
+                class="img-fluid">
+              <div class="portfolio-info">
+                <div class="caption">
+                  <h4>Math Quiz</h4>
+                  <p>built with Vue.js</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>Sasquatch event form</h4>
+                <p>built with Vue.js</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <a href="https://moonlit-frangipane-baad06.netlify.app/" target="_blank">
+              <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture"
+                class="img-fluid">
+              <div class="portfolio-info">
+                <div class="caption">
+                  <h4>Rock paper Scissors</h4>
+                  <p>built with Vue.js</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <a href="https://jazzy-taffy-a8b7e6.netlify.app/" target="_blank">
+              <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture"
+                class="img-fluid">
+              <div class="portfolio-info">
+                <div class="caption">
+                  <h4>quote app</h4>
+                  <p>built with Vue.js</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture"
+              class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4>+</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE GET STARTED SECTION -->
+  <section id="contact" class="get-started">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold text-capitalize">Contact Me</h1>
+        <div class="heading-line"></div>
+        <p class="lh-lg">
+          If you need any additional information or would like to know a little bit more about my career goals and aspirations, do not hesitate to reach out via email or phone.
+        </p>
+      </div>
+      <div class="row text-white">
+        <div class="col-12 col-lg-6 gradient shadow p-3">
+          <div class="cta-info w-100">
+            <h4 class="display-4 fw-bold">Cooper Jones</h4>
+            <hr>
+            <a href="mailto: jonesymrcb@gmail.com"><h5 class="display-3--brief">Jonesymrcb@gmail.com</h5></a>
+              <a href="mailto: cooperjones@mail.weber.edu"><h5 class="display-3--brief">cooperjones@mail.weber.edu</h5></a>
+               <a href="tel:3852446950"><h5 class="display-3--brief">385-244-6950</h5></a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 bg-white shadow p-3">
+          <div class="form w-100 pb-2">
+            <h4 class="display-3--title mb-5">Leave your info with me!</h4>
+            <form action="#" class="row">
+              <div class="col-lg-6 col-md mb-3">
+                <input type="text" placeholder="First Name" id="inputFirstName"
+                  class="shadow form-control form-control-lg">
+              </div>
+              <div class="col-lg-6 col-md mb-3">
+                <input type="text" placeholder="Last Name" id="inputLastName"
+                  class="shadow form-control form-control-lg">
+              </div>
+              <div class="col-lg-12 mb-3">
+                <input type="email" placeholder="Company" id="inputEmail"
+                  class="shadow form-control form-control-lg">
+              </div>
+              <div class="col-lg-12 mb-3">
+                <textarea name="message" placeholder="Message" id="message" rows="8"
+                  class="shadow form-control form-control-lg"></textarea>
+              </div>
+              <div class="text-center d-grid mt-1">
+                <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+                  submit
+                  <i class="bi bi-send"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- THE FOOTER SECTION -->
+  <footer class="footer">
+
+    <div class="footer-sm" style="background-color: #212121;">
+      <div class="container">
+        <div class="row py-4 text-center text-white">
+          <div class="col-lg-12 col-md-6">
+            <a href="https://facebook.com"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com"><i class="bi bi-twitter"></i></a>
+            <a href="https://github.com"><i class="bi bi-github"></i></a>
+            <a href="https://linkedin.com"><i class="bi bi-linkedin"></i></a>
+            <a href="https://instagram.com"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row text-white justify-content-center mt-3 pb-3">
+        <div class="col-12 col-sm-6 col-lg-6 mx-auto">
+          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
+          <p class="lh-lg" style="text-align: center;">
+            Thank you so much for stopping by and learning more about who I am and what I do! If you have any additional information please reach out to me and I will be more than happy to provide it to you!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom pt-5 pb-5">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col-12">
+            <div class="footer-bottom__copyright">
+              &COPY; Copyright 2023 <a href="#">Cooper Jones</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="shadow btn-primary rounded-circle back-to-top">
+    <i class="bi bi-chevron-up"></i>
+  </a>
+
+  <script type="module" src="./javascripts/main.js"></script>
+</body>
+
+</html>
